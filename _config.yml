@@ -2,23 +2,23 @@
 # This file contains configuration flags to customize your site
 #
 
-# 사이트 이름(헤더에 표시됨)
+# Name of your site (displayed in the header)
 name: Archive
 
-# 짧은 약력 또는 설명(헤더에 표시됨)
-description: spring backend developer
+# Short bio or description (displayed in the header)
+description: Spring backend developer
 
 #
 # Flags below are optional
 #
 
-# 아바타 또는 프로필 사진의 URL(GitHub 프로필 사진을 사용할 수 있음)
-avatar: https://avatars.githubusercontent.com/u/67679972?v=4
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://raw.githubusercontent.com/aweekj/kiko-now/master/images/jekyll-logo.png
 
 
-# 헤더의 탭. '블로그', '정보', '아카이브', '태그'가 있습니다.
-# 및 URL 링크(예: 아래의 '테마' 탭) 탭이 있습니다. 필요하지 않은 탭은 목록에서 삭제하세요.
-# 목록에서 삭제하면 됩니다(이름: '- 이름: ' 및 'url: '도 삭제하세요!).
+# Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
+# and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
+# it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
   - name: Blog
     url: /
@@ -29,9 +29,9 @@ navigation:
   - name: Tags
     url: /tags
   - name: Theme
-    url: https://github.com/scarlet0o0
+    url: https://github.com/AWEEKJ/kiko-now
 
-# 페이지 매김
+# Pagination
 paginate: 5
 
 # Includes an icon in the footer for each username you enter
@@ -53,13 +53,13 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2023 Blog Now
+footer-text: © 2017 Kiko Now
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus: # <username>.disqus.com
 
-# 추적을 활성화하려면 Google Analytics 웹 추적 코드(예: UA-2110908-2)를 입력하세요.
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
